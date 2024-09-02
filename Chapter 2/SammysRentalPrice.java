@@ -20,7 +20,7 @@ public class SammysRentalPrice {
 
         // Display motto and border after calculations
         System.out.println("\nSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS");
-        System.out.println("S  Sammy's makes it fun in the sun.          S");
+        System.out.println("S       Sammy's makes it fun in the sun.       S");
         System.out.println("SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS");
 
         // Display rental time details (unchanged)
