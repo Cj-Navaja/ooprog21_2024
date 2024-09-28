@@ -1,23 +1,29 @@
-class Circle {
-    private double radius;
+public class Circle {
 
-    public Circle(double radius) {
-        this.radius = radius;
-    }
+  static double radius = 1;
+  static double diameter = 2 * radius;
+  static double area = Math.PI * radius * radius;
 
-    public void setRadius(double radius) {
-        this.radius = radius;
-    }
+  public Circle() {
+    diameter = 2 * radius;
+    area = Math.PI * radius * radius;
+  }
 
-    public double getRadius() {
-        return radius;
-    }
+  public static void setRadius(double rad) {
+    radius = rad;
+    diameter = 2 * radius;
+    area = Math.PI * radius * radius;
+  }
 
-    public double getDiameter() {
-        return 2 * radius;
-    }
+  public static double getRadius() {
+    return radius;
+  }
 
-    public double getArea() {
-        return Math.PI * radius * radius;
-    }
+  public static double getDiameter() {
+    return diameter;
+  }
+
+  public static double getArea() {
+    return area;
+  }
 }
