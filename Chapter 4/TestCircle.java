@@ -10,7 +10,7 @@ public class TestCircle {
    
     a.setRadius(3);
 
-    // Print the radius, diameter, and area of the first circle
+    
     System.out.println("Radius of the first circle: " + a.getRadius());
     System.out.println("Diameter of the first circle: " + a.getDiameter());
     System.out.println("Area of the first circle: " + a.getArea());
