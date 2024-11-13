@@ -44,6 +44,6 @@ public class SpoonerismGenerator {
                 return i;
             }
         }
-        return -1; // Return -1 if no vowel is found after the first character
+        return -1; 
     }
 }
